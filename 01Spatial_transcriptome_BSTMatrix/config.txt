@@ -1,0 +1,25 @@
+FQ1	/data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/00RawData/Data/Unknown_BM908-0090001_good_1.fq.gz
+FQ2	/data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/00RawData/Data/Unknown_BM908-0090001_good_2.fq.gz
+
+FLU	/data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/00RawData/Data/BMK230727-BM908-0090001-02-20230712-CA31BN12F3-B2-HE.txt
+
+HE	/data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/00RawData/Data/BMK230727-BM908-0090001-02-20230712-CA31BN12F3-B2-HE.tif
+
+CellSplit	True
+
+INDEX	/data/wangmeiyue/genome/iwgsc_v1.0/STARindex_with_chrC_and_chrM
+GFF		/data/wangmeiyue/genome/iwgsc_v1.0/cellranger/IWGSC_v1.1_HC_20170706_part.addchrC_chrM.gtf
+FEATURE	    /data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/01RawDataProcess/features.tsv
+
+
+OUTDIR	/data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/01RawDataProcess
+PREFIX	Unknown_BM908-0090001_good
+
+BCType	V2
+BCThreads	8
+
+Sjdboverhang	100
+STARThreads	    8
+
+PYTHON	/home/wangmeiyue/miniconda3/envs/BSTMatrix_py3.8/bin
+Rscript	/home/wangmeiyue/miniconda3/envs/BSTMatrix_py3.8/bin
