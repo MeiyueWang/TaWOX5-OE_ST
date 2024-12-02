@@ -1,0 +1,1 @@
+/data/wangmeiyue/tools/BSTMatrix_v2.3.r/CellSplit -fs 0 -es 1 -d /data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/01RawDataProcess/07.CellSplit -e /data/wangmeiyue/cooperation/WK_wheat_regenerate/BMK_DATA_20231026120119_2/00RawData/Data/BMK230727-BM908-0090001-02-20230712-CA31BN12F3-B2-HE.tif
